@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "semanticscholar": {
+      "command": "npx",
+      "args": ["-y", "@anthropic-ai/mcp-fetch"],
+      "env": {}
+    },
+    "fetch": {
+      "command": "npx",
+      "args": ["-y", "@anthropic-ai/mcp-fetch"],
+      "env": {}
+    }
+  }
+}
