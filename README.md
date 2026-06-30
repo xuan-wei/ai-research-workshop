@@ -8,7 +8,7 @@
 2. Wait ~2 minutes for environment setup
 3. In the terminal, set your API key:
    ```bash
-   export ANTHROPIC_AUTH_TOKEN="your-deepseek-api-key"
+   export ANTHROPIC_API_KEY="your-deepseek-api-key"
    ```
 4. Start Claude Code:
    ```bash

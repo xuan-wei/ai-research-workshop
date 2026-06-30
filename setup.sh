@@ -16,7 +16,7 @@ fi
 echo "Configuring Claude Code with DeepSeek API..."
 
 export ANTHROPIC_BASE_URL="https://api.deepseek.com/anthropic"
-export ANTHROPIC_AUTH_TOKEN="$API_KEY"
+export ANTHROPIC_API_KEY="$API_KEY"
 export ANTHROPIC_MODEL="deepseek-v4-pro[1m]"
 export ANTHROPIC_DEFAULT_OPUS_MODEL="deepseek-v4-pro[1m]"
 export ANTHROPIC_DEFAULT_SONNET_MODEL="deepseek-v4-pro[1m]"
@@ -31,7 +31,7 @@ cat >> "$SHELL_RC" << EOF
 
 # AI Research Workshop - DeepSeek via Claude Code
 export ANTHROPIC_BASE_URL="https://api.deepseek.com/anthropic"
-export ANTHROPIC_AUTH_TOKEN="$API_KEY"
+export ANTHROPIC_API_KEY="$API_KEY"
 export ANTHROPIC_MODEL="deepseek-v4-pro[1m]"
 export ANTHROPIC_DEFAULT_OPUS_MODEL="deepseek-v4-pro[1m]"
 export ANTHROPIC_DEFAULT_SONNET_MODEL="deepseek-v4-pro[1m]"

@@ -16,14 +16,14 @@ claude --version
 # Setup API key if provided via Codespace secret
 if [ -n "$DEEPSEEK_API_KEY" ]; then
   echo "[3/3] Configuring DeepSeek API key..."
-  export ANTHROPIC_AUTH_TOKEN="$DEEPSEEK_API_KEY"
-  echo "export ANTHROPIC_AUTH_TOKEN=\"$DEEPSEEK_API_KEY\"" >> ~/.bashrc
+  export ANTHROPIC_API_KEY="$DEEPSEEK_API_KEY"
+  echo "export ANTHROPIC_API_KEY=\"$DEEPSEEK_API_KEY\"" >> ~/.bashrc
   echo "API key configured from Codespace secret."
 else
   echo "[3/3] No DEEPSEEK_API_KEY secret found."
   echo ""
   echo "  To configure, run:"
-  echo "  export ANTHROPIC_AUTH_TOKEN=\"your-deepseek-api-key\""
+  echo "  export ANTHROPIC_API_KEY=\"your-deepseek-api-key\""
   echo ""
 fi
 
